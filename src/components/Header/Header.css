@@ -1,0 +1,134 @@
+/* Header.css */
+
+/* Styling for the header section */
+.home {
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, #ffffff, #ffffff); /* Add a gradient background */
+  text-align: center;
+}
+
+/* Styling for the header container */
+.home__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the girl image */
+.home__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Styling for the home text */
+.home__text {
+  margin-bottom: 1rem;
+}
+
+.home__subtitle {
+  font-size: 1.8rem; /* Increase font size for better visibility */
+  color: #333; /* Use a darker color for the subtitle */
+}
+
+.home__title {
+  font-size: 3.2rem; /* Increase font size for better impact */
+  color: #1c1c1c; /* Use a slightly darker color for the title */
+  margin-bottom: 0.5rem;
+}
+
+.home__job {
+  font-size: 1.5rem; /* Increase font size for better visibility */
+  color: #1c1c1c;
+}
+
+/* Styling for the social icons */
+.home__socials {
+  display: flex;
+  gap: 1.5rem; /* Increase the gap between social icons */
+  margin-bottom: 2rem; /* Increase margin for better spacing */
+}
+
+.home__social-link {
+  font-size: 2.4rem; /* Increase icon size for better visibility */
+  color: #1c1c1c;
+  transition: color 0.3s ease;
+}
+
+.home__social-link:hover {
+  color: #0077b5; /* Change color on hover to a LinkedIn blue color */
+}
+
+/* Styling for the buttons */
+.home__btns {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2rem 2.5rem;
+  font-size: 1.6rem; /* Increase font size for better visibility */
+  font-weight: bold;
+  color: #fff;
+  background-color: #007BFF; /* Use a LinkedIn blue color for the buttons */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0066d4; /* Darken the background color on hover */
+}
+
+.btn-resume {
+  margin-bottom: 1rem; /* Add some spacing between the buttons */
+}
+
+.btn-contact {
+  border: 2px solid #007BFF; /* Add a border to the "Let's Talk" button */
+  background-color: transparent; /* Make the background transparent */
+  color: #007BFF; /* Use LinkedIn blue color for text */
+  cursor: pointer;
+}
+
+.btn-contact:hover {
+  background-color: #0066d4; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .home__title {
+    font-size: 2.8rem; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 600px) {
+  .home__image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .home__title {
+    font-size: 2.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .home__job {
+    font-size: 1.4rem; /* Adjust font size for smaller screens */
+  }
+
+  .home__btns {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 60%;
+  }
+}
+/* Add this to your Header.css file */
+

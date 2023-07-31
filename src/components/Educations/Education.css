@@ -1,0 +1,105 @@
+/* Education.css */
+
+/* Main section styles */
+#Education {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+#Education h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Education item styles */
+.education-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.education-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.education-item.expanded {
+  width: 100%;
+}
+
+.education-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.education-details {
+  font-size: 16px;
+}
+
+.education-year {
+  display: block;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.education-degree {
+  display: block;
+  margin: 5px 0;
+}
+
+.education-institution {
+  display: block;
+  color: #777;
+}
+
+.education-cgpa {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Hover effect */
+.education-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Interactive icons */
+.education-item .icon {
+  float: right;
+  font-size: 20px;
+  margin-top: -10px;
+  color: #007bff;
+}
+
+/* Education statistics styles */
+.education-statistics {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.education-statistics p {
+  margin-bottom: 2px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .education-item {
+    width: 100%;
+  }
+}
+.h2edu {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+    margin-top: 2rem; /* Adjust the value as needed */
+  }

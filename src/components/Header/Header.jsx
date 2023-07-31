@@ -23,7 +23,7 @@ const Header = () => {
               <span>Naina</span> Kaushik
             </h1>
             <p className='home__job'>
-              <span className='text-cs'>Fullstack</span> Developer
+              <span className='text-cs'>Web</span> Developer
             </p>
             <h5>Haryana, India</h5>
           </div>

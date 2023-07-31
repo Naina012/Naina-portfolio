@@ -21,8 +21,8 @@ const About = () => {
         </div>
         <div className="about_content">
           <p>
-            Hi there! I'm a UI/UX designer with a passion for creating visual experiences that captivate and inspire.
-            My design journey began in college, where I started designing and fell in love with the creative process of bringing ideas to life.
+          Hi there! I'm a Web Developer with a passion for crafting immersive and user-friendly online experiences that captivate and engage users. 
+          My journey into web development began in college, where I discovered my fascination with coding and fell in love with the creative process of transforming ideas into functional and visually appealing websites.
           </p>
           {expanded && (
             <>

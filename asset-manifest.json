@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Naina-portfolio/static/css/main.cfc7a4b8.css",
+    "main.js": "/Naina-portfolio/static/js/main.206fe0b8.js",
+    "static/media/project2.jpg": "/Naina-portfolio/static/media/project2.0dfdb478a2db20f08cf8.jpg",
+    "static/media/aboutme.png": "/Naina-portfolio/static/media/aboutme.7279b76b4bc6538c3d94.png",
+    "static/media/Resume.pdf": "/Naina-portfolio/static/media/Resume.44d85f1fa3e9fc903c34.pdf",
+    "static/media/project4.jpeg": "/Naina-portfolio/static/media/project4.5bc2687cdb426a57c84c.jpeg",
+    "static/media/project3.jpeg": "/Naina-portfolio/static/media/project3.5ae83458f56a1d1d3163.jpeg",
+    "static/media/project1.jpeg": "/Naina-portfolio/static/media/project1.fa7bcd15ca2c6d433163.jpeg",
+    "static/media/girl.png": "/Naina-portfolio/static/media/girl.8a08f840762f465347fe.png",
+    "index.html": "/Naina-portfolio/index.html",
+    "main.cfc7a4b8.css.map": "/Naina-portfolio/static/css/main.cfc7a4b8.css.map",
+    "main.206fe0b8.js.map": "/Naina-portfolio/static/js/main.206fe0b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfc7a4b8.css",
+    "static/js/main.206fe0b8.js"
+  ]
+}
